@@ -35,9 +35,9 @@ Step 4: Download Research Resources
 1. Download the current repository:
 
 2. Move to Documents   
-    
+3. Unzip folder    
 
-3. Run the configure script: 
+4. Run the configure script: 
    - Navigate to Documents\Quanser\1_setup. 
    - Double-click configure_python.bat. 
 
