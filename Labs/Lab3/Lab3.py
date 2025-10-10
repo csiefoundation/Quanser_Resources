@@ -122,8 +122,6 @@ try:
             qube_theta.append(theta); qube_omega.append(omega)
             qube_theta_des.append(theta_des)
 
-            time.sleep(sampleTime)
-
     HAVE_QUBE = True
 except Exception as e:
     HAVE_QUBE = False
@@ -165,3 +163,4 @@ if 'HAVE_QUBE' in globals() and HAVE_QUBE and len(qube_t) > 0:
     plt.show()
 else:
     print("[Qube] No device data to plot.")
+
